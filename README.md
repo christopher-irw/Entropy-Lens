@@ -1,5 +1,5 @@
-# EntropyLens
-EntropyLens is a research framework for analyzing entropy profiles in transformer models. It enables model-agnostic extraction of entropy metrics from frozen, off-the-shelf transformers, providing insights into model computation patterns, prompt and task identification, and output correctness. The framework is designed for reproducible experiments and does not require fine-tuning or access to model internals.
+# Entrop-Lens
+Entropy-Lens is a research framework for analyzing entropy profiles in transformer models. It enables model-agnostic extraction of entropy metrics from frozen, off-the-shelf transformers, providing insights into model computation patterns, prompt and task identification, and output correctness. The framework is designed for reproducible experiments and does not require fine-tuning or access to model internals.
 
 The source code in this repository includes modules for entropy computation (`model_inspector`), model management (`model_manager.py`), and scripts for running experiments and analyses. Notebooks and scripts are provided for clustering models, task identification, and format classification. Example commands and usage instructions are included to help you reproduce the main experiments and explore entropy-based analysis on various transformer models.
 
