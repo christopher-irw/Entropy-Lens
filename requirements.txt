@@ -1,0 +1,13 @@
+torch
+pandas
+numpy
+transformers
+datasets
+einops
+transformer_lens
+matplotlib
+seaborn
+tiktoken
+tqdm
+lxml
+scikit-learn
