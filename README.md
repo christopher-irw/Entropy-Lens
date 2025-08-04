@@ -19,8 +19,8 @@ The source code in this repository includes modules for entropy computation (`mo
     pip install -r requirements.txt
     ```
 
-## EntropyLens Overview
-All the code necessary to calucalte entropy profiles on different models can be found in the `model_inspector` module. This module provides functions to compute entropy metrics on model outputs, which can then be used for further analysis. Moreover, the `model_manager.py` module handles model loading and management tasks.
+## Overview
+All the code necessary to calculate entropy profiles on different models can be found in the `model_inspector` module. This module provides functions to compute entropy metrics on model outputs, which can then be used for further analysis. Moreover, the `model_manager.py` module handles model loading and management tasks.
 
 ## Experiments
 
