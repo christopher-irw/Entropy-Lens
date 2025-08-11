@@ -1,5 +1,6 @@
 # Entropy-Lens
-Entropy-Lens is a research framework for analyzing entropy profiles in transformer models. It enables model-agnostic extraction of entropy metrics from frozen, off-the-shelf transformers, providing insights into model computation patterns, prompt and task identification, and output correctness. The framework is designed for reproducible experiments and does not require fine-tuning or access to model internals.
+Entropy-Lens is a research framework for analyzing entropy profiles in transformer models. It enables model-agnostic extraction of entropy metrics from frozen, off-the-shelf transformers, providing insights into model computation patterns, prompt and task identification, and output correctness. The framework is designed for reproducible experiments and does not require fine-tuning or access to model internals. Read the full paper [here](https://arxiv.org/abs/2502.16570).
+
 
 The source code in this repository includes modules for entropy computation (`model_inspector`), model management (`model_manager.py`), and scripts for running experiments and analyses. Notebooks and scripts are provided for clustering models, task identification, and format classification. Example commands and usage instructions are included to help you reproduce the main experiments and explore entropy-based analysis on various transformer models.
 
@@ -51,6 +52,22 @@ For experiments with format classification, you can run the following command to
 ```bash
 python3 generate_format_dataset.py
 python3 classify_formats.py -d data/gemma/formats.pkl -a 0.5 1 5 -k 5
+```
+
+## Citation
+
+If you use Entropy-Lens in your research, please cite our paper:
+
+```bibtex
+@misc{ali2025entropylensinformationsignaturetransformer,
+    title={Entropy-Lens: The Information Signature of Transformer Computations}, 
+    author={Riccardo Ali and Francesco Caso and Christopher Irwin and Pietro Liò},
+    year={2025},
+    eprint={2502.16570},
+    archivePrefix={arXiv},
+    primaryClass={cs.LG},
+    url={https://arxiv.org/abs/2502.16570}, 
+}
 ```
 
 ---
